@@ -6,7 +6,7 @@ The main use is to show the Raspberry Pi's system stats on the OLED display.
 
 Files:
 
-sys_ft.py - this is a modified example script to show the stat i wanted displayed.
+ft_sys.py - this is a modified example script to show the stat i wanted displayed.
 (temp, cpu usage with bar graph, memory usage with bar graph, system load, and the bottom line alternates between system local ip address and system uptime.
 
-matrix.py - this displays a matrix code like screensaver from the movie "The Matrix".
+ft_matrix.py - this displays a matrix code like screensaver from the movie "The Matrix".

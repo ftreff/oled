@@ -79,7 +79,8 @@ def get_device(actual_args=None):
     # create device
     try:
         device = cmdline.create_device(args)
-        print(display_settings(device, args))
+        #print(display_settings(device, args))
+        print("Running OLED-SYS (ft_sys.py)")
         return device
 
     except error.Error as e:

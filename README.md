@@ -14,5 +14,5 @@ To use installpkgs.sh, run the following (2) commands:
   chmod +x installpkgs.sh
   ./installpkgs.sh
 
-oled-sys.service.txt - instructions how to install a oled-sys service so the oled displays system stats at system start up.
+oled-sys.service-installer.sh - script to install oled-sys as a service for current user
 

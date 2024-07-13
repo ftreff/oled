@@ -10,4 +10,9 @@ ft_sys.py - this is a modified example script to show the stat I wanted displaye
 (temp, cpu usage with bar graph, memory usage with bar graph, system load, and the bottom line alternates between local ip address and system uptime.
 
 installpkgs.sh - uses apt to update your systems packages then installs the required python3 luma.oled and psutil packages for the fy_sys.py python script to run
+To use installpkgs.sh, run the following (2) commands:
+  chmod +x installpkgs.sh
+  ./installpkgs.sh
+
+oled-sys.service.txt - instructions how to install a oled-sys service so the oled displays system stats at system start up.
 
